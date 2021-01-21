@@ -19788,6 +19788,9 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1n"/>
+<part name="C7" library="adafruit" deviceset="C-US" device="C0805" value="0.1uF"/>
+<part name="GND5" library="SparkFun" deviceset="GND" device=""/>
+<part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -19891,6 +19894,16 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C6" gate="G$1" x="337.82" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="337.439" y="164.084" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="342.519" y="164.084" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C7" gate="G$1" x="116.84" y="203.2" smashed="yes">
+<attribute name="NAME" x="117.856" y="203.835" size="1.778" layer="95"/>
+<attribute name="VALUE" x="117.856" y="199.009" size="1.778" layer="96"/>
+</instance>
+<instance part="GND5" gate="1" x="116.84" y="190.5" smashed="yes">
+<attribute name="VALUE" x="114.3" y="187.96" size="1.778" layer="96"/>
+</instance>
+<instance part="P+5" gate="1" x="116.84" y="210.82" smashed="yes">
+<attribute name="VALUE" x="115.824" y="214.376" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -20187,6 +20200,11 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="83.82" y1="198.12" x2="83.82" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="198.12" x2="116.84" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -20239,6 +20257,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C4" gate="G$1" pin="+"/>
 <wire x1="83.82" y1="205.74" x2="83.82" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="205.74" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="P+5" gate="1" pin="VCC"/>
 </segment>
 </net>
 <net name="RST" class="0">
