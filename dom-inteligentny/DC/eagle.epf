@@ -289,9 +289,9 @@ UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/con-hdrs40.lbr"
 UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/dawidkulpa_dev.lbr"
 UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/nxp_60.lbr"
 UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/pcf8575c.lbr"
+UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/pinhead-zmiany-JP.lbr"
 UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/pololu.lbr"
 UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/relay-relpol.lbr"
-UsedLibrary="C:/xampp/htdocs/work/elektronika/libraries/pinhead-zmiany-JP.lbr"
 
 [Win_1]
 Type="Control Panel"

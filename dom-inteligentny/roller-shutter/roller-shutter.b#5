@@ -173,6 +173,8 @@
 Roller Shutter v1.0
 weblogic.pl
 falcon.software</text>
+<text x="3.81" y="27.686" size="1.778" layer="25" rot="R90">1</text>
+<text x="9.144" y="27.686" size="1.778" layer="25" rot="R90">0</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

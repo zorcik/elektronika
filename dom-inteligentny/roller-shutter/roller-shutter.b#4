@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -144,9 +144,9 @@
 <plain>
 <wire x1="7.3" y1="0" x2="41.6" y2="0" width="0" layer="20"/>
 <wire x1="48.5" y1="10.5" x2="48.5" y2="73.5" width="0" layer="20"/>
-<hole x="10.3" y="21" drill="3.5"/>
-<hole x="8.181" y="67.746" drill="3.5"/>
-<hole x="44.4" y="21" drill="3.5"/>
+<hole x="10.3" y="21" drill="3"/>
+<hole x="8.181" y="67.746" drill="3"/>
+<hole x="44.4" y="21" drill="3"/>
 <rectangle x1="21.336" y1="66.421" x2="23.114" y2="69.469" layer="1"/>
 <rectangle x1="34.036" y1="66.421" x2="36.068" y2="69.469" layer="1"/>
 <text x="35.052" y="5.08" size="1.016" layer="25">GND</text>
