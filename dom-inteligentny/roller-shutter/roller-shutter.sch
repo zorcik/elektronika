@@ -18216,6 +18216,117 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead-zmiany-JP">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3X04">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-5.08" y1="-4.445" x2="-5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="1.905" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.905" x2="-2.54" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="0" y1="1.905" x2="0" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.08" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="1.905" x2="5.08" y2="-4.445" width="0.1524" layer="21"/>
+<pad name="2" x="-3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="-3.81" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="-1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="-1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="8" x="1.27" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="9" x="1.27" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="11" x="3.81" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="12" x="3.81" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-5.08" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.064" y1="-1.524" x2="-3.556" y2="-1.016" layer="51"/>
+<rectangle x1="-4.064" y1="1.016" x2="-3.556" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="1.016" x2="-1.016" y2="1.524" layer="51"/>
+<rectangle x1="-1.524" y1="-1.524" x2="-1.016" y2="-1.016" layer="51"/>
+<rectangle x1="1.016" y1="1.016" x2="1.524" y2="1.524" layer="51"/>
+<rectangle x1="1.016" y1="-1.524" x2="1.524" y2="-1.016" layer="51"/>
+<rectangle x1="3.556" y1="1.016" x2="4.064" y2="1.524" layer="51"/>
+<rectangle x1="3.556" y1="-1.524" x2="4.064" y2="-1.016" layer="51"/>
+<pad name="1" x="-3.81" y="-3.81" drill="1" shape="octagon"/>
+<pad name="4" x="-1.27" y="-3.81" drill="1" shape="octagon"/>
+<pad name="7" x="1.27" y="-3.81" drill="1" shape="octagon"/>
+<pad name="10" x="3.81" y="-3.81" drill="1" shape="octagon"/>
+<wire x1="-5.08" y1="-4.445" x2="-4.445" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-5.08" x2="-3.175" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-5.08" x2="-2.54" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-4.445" x2="-1.905" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-5.08" x2="-0.635" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-5.08" x2="0" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="0" y1="-4.445" x2="0.635" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-5.08" x2="1.905" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-5.08" x2="2.54" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-4.445" x2="3.175" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-5.08" x2="4.445" y2="-5.08" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-5.08" x2="5.08" y2="-4.445" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PINH3X4">
+<wire x1="-6.35" y1="-5.08" x2="16.51" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="16.51" y1="-5.08" x2="16.51" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="16.51" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="7.62" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="8.255" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="5.08" y="5.08" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="4" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="5" x="5.08" y="2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="7" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="8" x="5.08" y="0" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="10" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="11" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
+<pin name="3" x="12.7" y="5.08" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="6" x="12.7" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="9" x="12.7" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="12" x="12.7" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-3X4" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINH3X4" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="3X04">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18276,6 +18387,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="X4" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/3" device="" package3d_urn="urn:adsk.eagle:package:9883/1"/>
 <part name="X1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/3" device="" package3d_urn="urn:adsk.eagle:package:9883/1"/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
+<part name="JP6" library="pinhead-zmiany-JP" deviceset="PINHD-3X4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18502,6 +18616,16 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <attribute name="NAME" x="303.911" y="41.91" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="308.483" y="39.37" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="GND9" gate="1" x="358.14" y="119.38" smashed="yes">
+<attribute name="VALUE" x="355.6" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="P+8" gate="VCC" x="342.9" y="177.8" smashed="yes">
+<attribute name="VALUE" x="340.36" y="175.26" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="JP6" gate="G$1" x="345.44" y="160.02" smashed="yes">
+<attribute name="NAME" x="339.09" y="168.275" size="1.778" layer="95"/>
+<attribute name="VALUE" x="339.09" y="152.4" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18669,12 +18793,25 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="238.76" y1="147.32" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
 <label x="259.08" y="147.32" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="11"/>
+<wire x1="350.52" y1="157.48" x2="353.06" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="157.48" x2="353.06" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="149.86" x2="340.36" y2="149.86" width="0.1524" layer="91"/>
+<label x="340.36" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D8" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB0(ICP)"/>
 <wire x1="238.76" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
 <label x="248.92" y="142.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="8"/>
+<wire x1="350.52" y1="160.02" x2="355.6" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="160.02" x2="355.6" y2="149.86" width="0.1524" layer="91"/>
+<label x="355.6" y="149.86" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
 </net>
 <net name="D9" class="0">
@@ -18683,12 +18820,24 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="238.76" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
 <label x="259.08" y="139.7" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="5"/>
+<wire x1="355.6" y1="172.72" x2="355.6" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="162.56" x2="350.52" y2="162.56" width="0.1524" layer="91"/>
+<label x="355.6" y="172.72" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="D10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB2(SS/OC1B)"/>
 <wire x1="238.76" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
 <label x="248.92" y="137.16" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP6" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="170.18" x2="353.06" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="165.1" x2="350.52" y2="165.1" width="0.1524" layer="91"/>
+<label x="353.06" y="170.18" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="D11" class="0">
@@ -18839,6 +18988,20 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="312.42" y1="187.96" x2="325.12" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="325.12" y1="187.96" x2="325.12" y2="185.42" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="JP6" gate="G$1" pin="3"/>
+<pinref part="JP6" gate="G$1" pin="6"/>
+<wire x1="358.14" y1="165.1" x2="358.14" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="9"/>
+<wire x1="358.14" y1="162.56" x2="358.14" y2="160.02" width="0.1524" layer="91"/>
+<junction x="358.14" y="162.56"/>
+<pinref part="JP6" gate="G$1" pin="12"/>
+<wire x1="358.14" y1="160.02" x2="358.14" y2="157.48" width="0.1524" layer="91"/>
+<junction x="358.14" y="160.02"/>
+<wire x1="358.14" y1="157.48" x2="358.14" y2="121.92" width="0.1524" layer="91"/>
+<junction x="358.14" y="157.48"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -18924,6 +19087,20 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="345.44" y1="88.9" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="88.9" x2="350.52" y2="91.44" width="0.1524" layer="91"/>
 <label x="350.52" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="P+8" gate="VCC" pin="VCC"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
+<wire x1="342.9" y1="175.26" x2="342.9" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="JP6" gate="G$1" pin="4"/>
+<wire x1="342.9" y1="165.1" x2="342.9" y2="162.56" width="0.1524" layer="91"/>
+<junction x="342.9" y="165.1"/>
+<pinref part="JP6" gate="G$1" pin="7"/>
+<wire x1="342.9" y1="162.56" x2="342.9" y2="160.02" width="0.1524" layer="91"/>
+<junction x="342.9" y="162.56"/>
+<pinref part="JP6" gate="G$1" pin="10"/>
+<wire x1="342.9" y1="160.02" x2="342.9" y2="157.48" width="0.1524" layer="91"/>
+<junction x="342.9" y="160.02"/>
 </segment>
 </net>
 <net name="RST" class="0">
