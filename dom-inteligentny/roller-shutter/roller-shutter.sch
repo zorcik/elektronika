@@ -93,6 +93,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -18428,6 +18430,125 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Omron G3MB 202p SSR">
+<packages>
+<package name="OMRON-G3MB-202P-SSR">
+<description>&lt;b&gt;S202S02&lt;/b&gt;&lt;p&gt;
+Source: http://sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02_e.pdf</description>
+<wire x1="-1.85" y1="1.55" x2="-1.85" y2="-3.65" width="0.1" layer="21"/>
+<wire x1="1.85" y1="1.53" x2="1.85" y2="-3.65" width="0.1" layer="21"/>
+<wire x1="-15.5" y1="1.6" x2="10.42" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="10.42" y1="1.6" x2="10.42" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="10.42" y1="-3.7" x2="-15.5" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-15.5" y1="-3.7" x2="-15.5" y2="1.6" width="0.2032" layer="21"/>
+<pad name="1" x="-12.7" y="0" drill="1"/>
+<pad name="2" x="-5.08" y="0" drill="1"/>
+<pad name="3" x="5.08" y="0" drill="1"/>
+<pad name="4" x="7.62" y="0" drill="1"/>
+<text x="-8.89" y="-5.715" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="OMRON-G3MB-202P-SSR">
+<circle x="5.334" y="-2.54" radius="0.254" width="0" layer="94"/>
+<rectangle x1="-6.35" y1="-1.016" x2="-3.81" y2="-0.762" layer="94"/>
+<rectangle x1="3.556" y1="1.524" x2="7.112" y2="1.778" layer="94"/>
+<rectangle x1="3.556" y1="0" x2="7.112" y2="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.334" y1="2.54" x2="7.874" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.334" y1="-2.54" x2="7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.334" y1="2.54" x2="5.334" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="5.334" y1="0" x2="5.334" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="-0.254" y2="-0.508" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="-0.508" x2="-0.254" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="-0.254" y1="1.27" x2="1.651" y2="0" width="0.2032" layer="94"/>
+<wire x1="5.334" y1="0" x2="3.556" y2="-1.524" width="0.0508" layer="94"/>
+<wire x1="3.556" y1="-1.524" x2="3.556" y2="-1.778" width="0.0508" layer="94"/>
+<wire x1="3.556" y1="-1.778" x2="2.54" y2="-1.778" width="0.0508" layer="94"/>
+<wire x1="2.54" y1="-1.778" x2="2.54" y2="-3.302" width="0.0508" layer="94"/>
+<wire x1="2.54" y1="-3.302" x2="4.572" y2="-3.302" width="0.0508" layer="94"/>
+<wire x1="4.572" y1="-3.302" x2="4.572" y2="-2.54" width="0.0508" layer="94"/>
+<wire x1="4.572" y1="-2.54" x2="4.572" y2="-1.778" width="0.0508" layer="94"/>
+<wire x1="4.572" y1="-1.778" x2="3.556" y2="-1.778" width="0.0508" layer="94"/>
+<wire x1="4.572" y1="-2.54" x2="5.334" y2="-2.54" width="0.0508" layer="94"/>
+<pin name="A" x="-10.16" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="DS1" x="10.16" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DS2" x="10.16" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="K" x="-10.16" y="-2.54" visible="pad" length="short" direction="pas"/>
+<text x="-7.62" y="6.35" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<text x="2.794" y="-3.048" size="1.016" layer="94">ZC</text>
+<polygon width="0.1524" layer="94">
+<vertex x="-6.35" y="1.016"/>
+<vertex x="-3.81" y="1.016"/>
+<vertex x="-5.08" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="6.096" y="1.524"/>
+<vertex x="5.334" y="0.254"/>
+<vertex x="6.858" y="0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="0.508"/>
+<vertex x="1.27" y="-0.254"/>
+<vertex x="2.794" y="-0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="4.572" y="0.254"/>
+<vertex x="5.334" y="1.524"/>
+<vertex x="3.81" y="1.524"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="OMRON-G3MB-202P-SSR" prefix="K">
+<description>&lt;b&gt;IT(rms) 8A, Zero Cross type SIP 4pin Triac output SSR&lt;/b&gt;&lt;p&gt;
+Source: http://sharp-world.com/products/device/lineup/data/pdf/datasheet/s102s02_e.pdf</description>
+<gates>
+<gate name="G$1" symbol="OMRON-G3MB-202P-SSR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OMRON-G3MB-202P-SSR">
+<connects>
+<connect gate="G$1" pin="A" pad="3"/>
+<connect gate="G$1" pin="DS1" pad="1"/>
+<connect gate="G$1" pin="DS2" pad="2"/>
+<connect gate="G$1" pin="K" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="" constant="no"/>
+<attribute name="OC_NEWARK" value="" constant="no"/>
+</technology>
+<technology name="1">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="2">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="S202S02F" constant="no"/>
+<attribute name="OC_FARNELL" value="1618475" constant="no"/>
+<attribute name="OC_NEWARK" value="14N9588" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18491,6 +18612,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="JP6" library="pinhead-zmiany-JP" deviceset="PINHD-3X4" device=""/>
 <part name="X5" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/4" device="" package3d_urn="urn:adsk.eagle:package:9887/1"/>
+<part name="K2" library="Omron G3MB 202p SSR" deviceset="OMRON-G3MB-202P-SSR" device=""/>
+<part name="K3" library="Omron G3MB 202p SSR" deviceset="OMRON-G3MB-202P-SSR" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18729,6 +18852,14 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="X5" gate="-4" x="309.88" y="43.18" smashed="yes" rot="R90">
 <attribute name="NAME" x="308.991" y="41.91" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="313.563" y="39.37" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="K2" gate="G$1" x="294.64" y="86.36" smashed="yes" rot="R270">
+<attribute name="NAME" x="300.99" y="93.98" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="287.02" y="93.98" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="K3" gate="G$1" x="340.36" y="86.36" smashed="yes" rot="R270">
+<attribute name="NAME" x="346.71" y="93.98" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="332.74" y="93.98" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -19144,6 +19275,11 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="312.42" y1="88.9" x2="312.42" y2="86.36" width="0.1524" layer="91"/>
 <junction x="312.42" y="86.36"/>
+<pinref part="K2" gate="G$1" pin="A"/>
+<wire x1="297.18" y1="96.52" x2="302.26" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="96.52" x2="302.26" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="86.36" x2="304.8" y2="86.36" width="0.1524" layer="91"/>
+<junction x="304.8" y="86.36"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -19169,11 +19305,15 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </segment>
 <segment>
 <pinref part="JP2" gate="A" pin="3"/>
-<wire x1="358.14" y1="104.14" x2="345.44" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="104.14" x2="345.44" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="345.44" y1="88.9" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="88.9" x2="350.52" y2="91.44" width="0.1524" layer="91"/>
-<label x="350.52" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="358.14" y1="104.14" x2="350.52" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="104.14" x2="350.52" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="96.52" x2="350.52" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="88.9" x2="355.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="88.9" x2="355.6" y2="91.44" width="0.1524" layer="91"/>
+<label x="355.6" y="91.44" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="K3" gate="G$1" pin="A"/>
+<wire x1="342.9" y1="96.52" x2="350.52" y2="96.52" width="0.1524" layer="91"/>
+<junction x="350.52" y="96.52"/>
 </segment>
 <segment>
 <pinref part="P+8" gate="VCC" pin="VCC"/>
@@ -19233,6 +19373,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="347.98" y1="121.92" x2="347.98" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="JP2" gate="A" pin="1"/>
 <wire x1="347.98" y1="109.22" x2="358.14" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="K2" gate="G$1" pin="K"/>
+<wire x1="292.1" y1="96.52" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -19251,6 +19393,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="332.74" y1="106.68" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="106.68" x2="332.74" y2="106.68" width="0.1524" layer="91"/>
 <junction x="332.74" y="106.68"/>
+<pinref part="K3" gate="G$1" pin="K"/>
+<wire x1="337.82" y1="96.52" x2="332.74" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -19285,6 +19429,12 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <junction x="309.88" y="68.58"/>
 <wire x1="294.64" y1="48.26" x2="294.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-1" pin="KL"/>
+<pinref part="K3" gate="G$1" pin="DS2"/>
+<wire x1="337.82" y1="76.2" x2="309.88" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="76.2" x2="309.88" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="K2" gate="G$1" pin="DS2"/>
+<wire x1="292.1" y1="76.2" x2="279.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="76.2" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -19292,8 +19442,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="K1" gate="3" pin="S"/>
 <pinref part="K1" gate="2" pin="S"/>
 <wire x1="271.78" y1="73.66" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="73.66" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="73.66" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
 <junction x="287.02" y="73.66"/>
+<wire x1="297.18" y1="73.66" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="73.66" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="53.34" x2="309.88" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="X5" gate="-4" pin="KL"/>
@@ -19301,6 +19452,9 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="271.78" y1="73.66" x2="251.46" y2="73.66" width="0.1524" layer="91"/>
 <junction x="271.78" y="73.66"/>
+<pinref part="K2" gate="G$1" pin="DS1"/>
+<wire x1="297.18" y1="76.2" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
+<junction x="297.18" y="73.66"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -19315,8 +19469,12 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <pinref part="X5" gate="-3" pin="KL"/>
 <wire x1="304.8" y1="50.8" x2="304.8" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="345.44" y1="73.66" x2="332.74" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="73.66" x2="342.9" y2="73.66" width="0.1524" layer="91"/>
 <junction x="332.74" y="73.66"/>
+<pinref part="K3" gate="G$1" pin="DS1"/>
+<wire x1="342.9" y1="73.66" x2="332.74" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="76.2" x2="342.9" y2="73.66" width="0.1524" layer="91"/>
+<junction x="342.9" y="73.66"/>
 </segment>
 </net>
 <net name="N$9" class="0">
