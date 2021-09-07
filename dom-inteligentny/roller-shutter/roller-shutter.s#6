@@ -15962,128 +15962,6 @@ Source: http://www.schrack.com/.. 5844.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15c">
-<description>&lt;BR&gt;Wurth Elektronik - Terminal Block Connectors&lt;br&gt;&lt;Hr&gt;
-&lt;BR&gt;&lt;BR&gt; 
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-405&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/eagle"&gt;http://www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
-that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
-Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
-&lt;hr&gt;
-Eagle Version 6, Library Revision 2015c, 2015-06-02&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="691218410003">
-<description>&lt;b&gt;WR-TBL Serie 2184 - 7.62mm Horizontal Entry Modular with Rising Cage Clamp - 5.3mm2 Wires, 3 Pins</description>
-<wire x1="11.43" y1="4.6" x2="-12.2" y2="4.6" width="0.127" layer="21"/>
-<wire x1="-12.2" y1="4.6" x2="-12.2" y2="-7.9" width="0.127" layer="21"/>
-<wire x1="-12.2" y1="-7.9" x2="11.43" y2="-7.9" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-7.9" x2="11.43" y2="4.6" width="0.127" layer="21"/>
-<pad name="2" x="0" y="0" drill="1.6"/>
-<pad name="1" x="-7.62" y="0" drill="1.6"/>
-<pad name="3" x="7.62" y="0" drill="1.6"/>
-<text x="-13.952" y="6.8085" size="1.27" layer="25">&gt;NAME</text>
-<text x="-13.952" y="-9.8922" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="3">
-<wire x1="-1.651" y1="3.429" x2="-1.651" y2="1.651" width="0.254" layer="94" curve="180" cap="flat"/>
-<wire x1="-1.651" y1="0.889" x2="-1.651" y2="-0.889" width="0.254" layer="94" curve="180" cap="flat"/>
-<wire x1="-1.651" y1="-1.651" x2="-1.651" y2="-3.429" width="0.254" layer="94" curve="180" cap="flat"/>
-<text x="1.27" y="0.238" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-5.08" y="2.54" visible="pad" length="short" direction="pas"/>
-<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="3" x="-5.08" y="-2.54" visible="pad" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="691218410003" prefix="K">
-<description>&lt;b&gt;WR-TBL Serie 2184 - 7.62mm Horizontal Entry Modular with Rising Cage Clamp - 5.3mm2 Wires, 3 Pins&lt;/b&gt;=&gt;Code : Con_TBL_Screw_RisingClamp_7.62_691218410003
-&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_TBL_Screw_RisingClamp_7.62_6912184100xx_pf2.jpg" title="Enlarge picture"&gt;
-&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_TBL_Screw_RisingClamp_7.62_6912184100xx_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="http://katalog.we-online.de/en/em/691_218_410_0xx"&gt;http://katalog.we-online.de/en/em/691_218_410_0xx&lt;/a&gt;&lt;p&gt;
-Created 2014-06-18, Karrer Zheng&lt;br&gt;
-2014 (C) Würth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="3" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="691218410003">
-<connects>
-<connect gate="G$1" pin="1" pad="2"/>
-<connect gate="G$1" pin="2" pad="3"/>
-<connect gate="G$1" pin="3" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="transistor" urn="urn:adsk.eagle:library:402">
 <description>&lt;b&gt;Transistors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -18375,7 +18253,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="K4" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="RP42?*" device="1" package3d_urn="urn:adsk.eagle:package:24304/1" technology="110"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="K3" library="Wurth_Elektronik_Electromechanic_Terminal_Blocks_Connectors_rev15c" deviceset="691218410003" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="T2" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
 <part name="R2" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
@@ -18398,6 +18275,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="X3" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-05-PIN" device="-LONG-PAD"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
 <part name="X4" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/3" device="" package3d_urn="urn:adsk.eagle:package:9883/1"/>
+<part name="X1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/3" device="" package3d_urn="urn:adsk.eagle:package:9883/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -18501,10 +18379,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 </instance>
 <instance part="P+7" gate="VCC" x="304.8" y="91.44" smashed="yes">
 <attribute name="VALUE" x="302.26" y="88.9" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="K3" gate="G$1" x="299.72" y="53.34" smashed="yes" rot="R270">
-<attribute name="NAME" x="299.958" y="52.07" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="297.18" y="52.07" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="T1" gate="G$1" x="274.32" y="109.22" smashed="yes">
 <attribute name="NAME" x="264.16" y="116.84" size="1.778" layer="95"/>
@@ -18617,6 +18491,16 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="X4" gate="-3" x="330.2" y="175.26" smashed="yes" rot="MR0">
 <attribute name="NAME" x="331.47" y="176.149" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="334.01" y="171.577" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="X1" gate="-1" x="294.64" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="293.751" y="41.91" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="X1" gate="-2" x="299.72" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="298.831" y="41.91" size="1.778" layer="95" rot="R270"/>
+</instance>
+<instance part="X1" gate="-3" x="304.8" y="43.18" smashed="yes" rot="R90">
+<attribute name="NAME" x="303.911" y="41.91" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="308.483" y="39.37" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -19133,8 +19017,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="307.34" y1="68.58" x2="279.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="264.16" y1="68.58" x2="264.16" y2="58.42" width="0.1524" layer="91"/>
 <junction x="264.16" y="68.58"/>
-<pinref part="K3" gate="G$1" pin="3"/>
-<wire x1="264.16" y1="58.42" x2="297.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="58.42" x2="294.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="55.88" x2="251.46" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="53.34" x2="264.16" y2="53.34" width="0.1524" layer="91"/>
@@ -19145,6 +19028,8 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="345.44" y1="53.34" x2="307.34" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="53.34" x2="307.34" y2="68.58" width="0.1524" layer="91"/>
 <junction x="307.34" y="68.58"/>
+<pinref part="X1" gate="-1" pin="KL"/>
+<wire x1="294.64" y1="48.26" x2="294.64" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -19154,11 +19039,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="271.78" y1="73.66" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="73.66" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
 <junction x="287.02" y="73.66"/>
-<pinref part="K3" gate="G$1" pin="2"/>
-<wire x1="299.72" y1="73.66" x2="299.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="73.66" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="251.46" y1="73.66" x2="271.78" y2="73.66" width="0.1524" layer="91"/>
 <junction x="271.78" y="73.66"/>
+<wire x1="299.72" y1="53.34" x2="304.8" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-3" pin="KL"/>
+<wire x1="304.8" y1="53.34" x2="304.8" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -19168,11 +19055,13 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="332.74" y1="73.66" x2="317.5" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="73.66" x2="302.26" y2="73.66" width="0.1524" layer="91"/>
 <junction x="317.5" y="73.66"/>
-<pinref part="K3" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="73.66" x2="302.26" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="73.66" x2="302.26" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="332.74" y1="73.66" x2="345.44" y2="73.66" width="0.1524" layer="91"/>
 <junction x="332.74" y="73.66"/>
+<wire x1="302.26" y1="50.8" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<wire x1="299.72" y1="50.8" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">

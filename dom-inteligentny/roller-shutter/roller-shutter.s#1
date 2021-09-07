@@ -18794,7 +18794,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="325.12" y1="180.34" x2="312.42" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="A4" class="0">
+<net name="SDA" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="238.76" y1="177.8" x2="248.92" y2="177.8" width="0.1524" layer="91"/>
@@ -18809,23 +18809,6 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="226.06" y1="104.14" x2="226.06" y2="116.84" width="0.1524" layer="91"/>
 <junction x="226.06" y="104.14"/>
 <label x="226.06" y="116.84" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-</net>
-<net name="A5" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
-<wire x1="238.76" y1="175.26" x2="259.08" y2="175.26" width="0.1524" layer="91"/>
-<label x="259.08" y="175.26" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="X3" gate="-1" pin="S"/>
-<wire x1="193.04" y1="99.06" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="228.6" y1="101.6" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="101.6" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
-<junction x="228.6" y="101.6"/>
-<label x="228.6" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A6" class="0">
@@ -19363,6 +19346,23 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <wire x1="320.04" y1="50.8" x2="345.44" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="50.8" x2="345.44" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="PC5(ADC5/SCL)"/>
+<wire x1="238.76" y1="175.26" x2="259.08" y2="175.26" width="0.1524" layer="91"/>
+<label x="259.08" y="175.26" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X3" gate="-1" pin="S"/>
+<wire x1="193.04" y1="99.06" x2="193.04" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="101.6" x2="228.6" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-1" pin="S"/>
+<wire x1="228.6" y1="101.6" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="101.6" x2="228.6" y2="116.84" width="0.1524" layer="91"/>
+<junction x="228.6" y="101.6"/>
+<label x="228.6" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
