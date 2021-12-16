@@ -159,48 +159,47 @@
 <library name="ESP32">
 <packages>
 <package name="ESP32-30PIN">
-<pad name="5V" x="1.27" y="1.27" drill="0.85" shape="square"/>
-<pad name="GND" x="1.27" y="3.81" drill="0.85" shape="square"/>
-<pad name="GPIO13" x="1.27" y="6.35" drill="0.85" shape="square"/>
-<pad name="GPIO12" x="1.27" y="8.89" drill="0.85" shape="square"/>
-<pad name="GPIO14" x="1.27" y="11.43" drill="0.85" shape="square"/>
-<pad name="GPIO27" x="1.27" y="13.97" drill="0.85" shape="square"/>
-<pad name="GPIO26" x="1.27" y="16.51" drill="0.85" shape="square"/>
-<pad name="GPIO25" x="1.27" y="19.05" drill="0.85" shape="square"/>
-<pad name="GPIO33" x="1.27" y="21.59" drill="0.85" shape="square"/>
-<pad name="GPIO32" x="1.27" y="24.13" drill="0.85" shape="square"/>
-<pad name="GPIO35" x="1.27" y="26.67" drill="0.85" shape="square"/>
-<pad name="GPIO34" x="1.27" y="29.21" drill="0.85" shape="square"/>
-<pad name="GPIO39" x="1.27" y="31.75" drill="0.85" shape="square"/>
-<pad name="GPIO36" x="1.27" y="34.29" drill="0.85" shape="square"/>
-<pad name="EN" x="1.27" y="36.83" drill="0.85" shape="square"/>
-<pad name="3.3V" x="24.13" y="1.27" drill="0.85" shape="square"/>
-<pad name="GND1" x="24.13" y="3.81" drill="0.85" shape="square"/>
-<pad name="GPIO15" x="24.13" y="6.35" drill="0.85" shape="square"/>
-<pad name="GPIO2" x="24.13" y="8.89" drill="0.85" shape="square"/>
-<pad name="GPIO4" x="24.13" y="11.43" drill="0.85" shape="square"/>
-<pad name="GPIO16" x="24.13" y="13.97" drill="0.85" shape="square"/>
-<pad name="GPIO17" x="24.13" y="16.51" drill="0.85" shape="square"/>
-<pad name="GPIO5" x="24.13" y="19.05" drill="0.85" shape="square"/>
-<pad name="GPIO18" x="24.13" y="21.59" drill="0.85" shape="square"/>
-<pad name="GPIO19" x="24.13" y="24.13" drill="0.85" shape="square"/>
-<pad name="GPIO21" x="24.13" y="26.67" drill="0.85" shape="square"/>
-<pad name="GPIO3" x="24.13" y="29.21" drill="0.85" shape="square"/>
-<pad name="GPIO1" x="24.13" y="31.75" drill="0.85" shape="square"/>
-<pad name="GPIO22" x="24.13" y="34.29" drill="0.85" shape="square"/>
-<pad name="GPIO23" x="24.13" y="36.83" drill="0.85" shape="square"/>
-<wire x1="0" y1="0" x2="0" y2="38.1" width="0.127" layer="21"/>
-<wire x1="0" y1="38.1" x2="25.4" y2="38.1" width="0.127" layer="21"/>
-<wire x1="25.4" y1="38.1" x2="25.4" y2="0" width="0.127" layer="21"/>
-<wire x1="25.4" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="5V" x="1.27" y="1.27" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GND" x="1.27" y="3.81" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO13" x="1.27" y="6.35" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO12" x="1.27" y="8.89" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO14" x="1.27" y="11.43" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO27" x="1.27" y="13.97" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO26" x="1.27" y="16.51" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO25" x="1.27" y="19.05" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO33" x="1.27" y="21.59" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO32" x="1.27" y="24.13" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO35" x="1.27" y="26.67" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO34" x="1.27" y="29.21" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO39" x="1.27" y="31.75" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO36" x="1.27" y="34.29" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="EN" x="1.27" y="36.83" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="3.3V" x="26.67" y="1.27" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GND1" x="26.67" y="3.81" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO15" x="26.67" y="6.35" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO2" x="26.67" y="8.89" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO4" x="26.67" y="11.43" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO16" x="26.67" y="13.97" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO17" x="26.67" y="16.51" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO5" x="26.67" y="19.05" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO18" x="26.67" y="21.59" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO19" x="26.67" y="24.13" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO21" x="26.67" y="26.67" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO3" x="26.67" y="29.21" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO1" x="26.67" y="31.75" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO22" x="26.67" y="34.29" drill="0.85" diameter="1.9304" shape="long"/>
+<pad name="GPIO23" x="26.67" y="36.83" drill="0.85" diameter="1.9304" shape="long"/>
+<wire x1="0" y1="-7.62" x2="0" y2="44.45" width="0.127" layer="21"/>
+<wire x1="0" y1="44.45" x2="27.94" y2="44.45" width="0.127" layer="21"/>
+<wire x1="27.94" y1="44.45" x2="27.94" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="27.94" y1="-7.62" x2="0" y2="-7.62" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
-<vertex x="8.89" y="0"/>
-<vertex x="8.89" y="2.54"/>
-<vertex x="12.7" y="2.54"/>
-<vertex x="16.51" y="2.54"/>
-<vertex x="16.51" y="0"/>
+<vertex x="10.16" y="-2.54"/>
+<vertex x="10.16" y="-7.62"/>
+<vertex x="17.78" y="-7.62"/>
+<vertex x="17.78" y="-2.54"/>
 </polygon>
-<text x="12.7" y="2.794" size="1.27" layer="21" align="bottom-center">USB</text>
+<text x="13.97" y="-1.016" size="1.27" layer="21" align="bottom-center">USB</text>
 </package>
 </packages>
 <symbols>
