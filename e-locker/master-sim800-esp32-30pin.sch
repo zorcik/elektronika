@@ -11237,12 +11237,12 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-10.16" y1="48.26" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-2.54" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="35.56" x2="7.62" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="35.56" x2="7.62" y2="40.64" width="0.1524" layer="91"/>
-<junction x="7.62" y="35.56"/>
-<label x="7.62" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="2.54" y1="35.56" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
+<junction x="2.54" y="35.56"/>
+<label x="2.54" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="X2" gate="-1" pin="S"/>
 <wire x1="-20.32" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-10.16" y="66.04"/>
@@ -11675,12 +11675,6 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="G36" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="167.64" y1="73.66" x2="167.64" y2="76.2" width="0.1524" layer="91"/>
-<label x="167.64" y="76.2" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="GPIO36"/>
 <wire x1="22.86" y1="68.58" x2="12.7" y2="68.58" width="0.1524" layer="91"/>
 <label x="12.7" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -11688,22 +11682,12 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="G39" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
-<label x="167.64" y="53.34" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="GPIO39"/>
 <wire x1="22.86" y1="66.04" x2="20.32" y2="66.04" width="0.1524" layer="91"/>
 <label x="20.32" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="G34" class="0">
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="30.48" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
-<label x="167.64" y="30.48" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPIO34"/>
 <wire x1="22.86" y1="63.5" x2="12.7" y2="63.5" width="0.1524" layer="91"/>
@@ -11883,6 +11867,44 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$7" gate="G$1" pin="TXD"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="132.08" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="G25" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO25"/>
+<wire x1="22.86" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="91"/>
+<label x="12.7" y="53.34" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="30.48" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="30.48" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
+<label x="167.64" y="33.02" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="G26" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO26"/>
+<wire x1="22.86" y1="50.8" x2="20.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="20.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="53.34" x2="167.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="53.34" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
+<label x="167.64" y="55.88" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="G27" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO27"/>
+<wire x1="22.86" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
+<label x="12.7" y="48.26" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="170.18" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
+<label x="167.64" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

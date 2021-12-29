@@ -169,7 +169,7 @@
 <text x="21.463" y="76.327" size="1.778" layer="25">12V</text>
 <text x="97.028" y="38.481" size="1.778" layer="25" rot="R90">E-LOCKER.pl
 MASTER 3G
-rev. 1.4</text>
+rev. 1.5</text>
 <text x="5.334" y="86.233" size="1.778" layer="25">- 5V +</text>
 <text x="14.732" y="86.233" size="1.778" layer="25">- 5V +</text>
 <text x="23.368" y="86.106" size="1.778" layer="25">- 5V +</text>
@@ -2796,11 +2796,9 @@ design rules under a new name.</description>
 <wire x1="45.593" y1="56.54" x2="44.323" y2="56.54" width="0.6096" layer="1"/>
 <wire x1="44.323" y1="56.54" x2="43.282" y2="55.499" width="0.6096" layer="1"/>
 <wire x1="43.282" y1="55.499" x2="43.18" y2="55.499" width="0.6096" layer="1"/>
-<wire x1="43.18" y1="55.499" x2="43.18" y2="50.546" width="0.6096" layer="1"/>
-<wire x1="42.164" y1="49.53" x2="43.18" y2="50.546" width="0.6096" layer="1"/>
 <wire x1="60.452" y1="9.017" x2="51.00365" y2="9.017" width="0.8128" layer="1"/>
-<wire x1="51.00365" y1="9.017" x2="42.164" y2="18.8468" width="0.8128" layer="1"/>
-<wire x1="42.164" y1="18.8468" x2="42.164" y2="49.53" width="0.8128" layer="1"/>
+<wire x1="51.00365" y1="9.017" x2="43.18" y2="17.716996875" width="0.8128" layer="1"/>
+<wire x1="43.18" y1="17.716996875" x2="43.18" y2="55.499" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$9">
 <contactref element="R3" pad="1"/>
@@ -2864,32 +2862,13 @@ design rules under a new name.</description>
 <wire x1="35.306" y1="61.214" x2="36.492" y2="62.4" width="0.6096" layer="1"/>
 </signal>
 <signal name="G36">
-<contactref element="R6" pad="1"/>
 <contactref element="U$1" pad="GPIO36"/>
-<wire x1="40.894" y1="54.077" x2="40.894" y2="52.197" width="0.6096" layer="1"/>
-<wire x1="40.894" y1="52.197" x2="39.37" y2="50.673" width="0.6096" layer="1"/>
-<wire x1="39.37" y1="50.673" x2="39.2938" y2="50.673" width="0.6096" layer="1"/>
-<wire x1="39.2938" y1="50.673" x2="39.2938" y2="42.4730125" width="0.6096" layer="1"/>
-<wire x1="35.052" y1="42.037" x2="37.89798125" y2="42.037" width="0.6096" layer="1"/>
-<wire x1="39.2938" y1="42.4730125" x2="37.89798125" y2="42.037" width="0.6096" layer="1"/>
 </signal>
 <signal name="G39">
-<contactref element="R7" pad="1"/>
 <contactref element="U$1" pad="GPIO39"/>
-<wire x1="38.1" y1="54.077" x2="38.1" y2="52.324" width="0.6096" layer="1"/>
-<wire x1="32.1818" y1="46.4058" x2="32.1818" y2="39.90458125" width="0.6096" layer="1"/>
-<wire x1="35.052" y1="39.497" x2="33.3038625" y2="39.497" width="0.6096" layer="1"/>
-<wire x1="33.3038625" y1="39.497" x2="32.1818" y2="39.90458125" width="0.6096" layer="1"/>
-<wire x1="38.1" y1="52.324" x2="32.1818" y2="46.4058" width="0.6096" layer="1"/>
 </signal>
 <signal name="G34">
-<contactref element="R8" pad="1"/>
 <contactref element="U$1" pad="GPIO34"/>
-<wire x1="35.306" y1="54.077" x2="35.179" y2="54.077" width="0.6096" layer="1"/>
-<wire x1="35.179" y1="54.077" x2="30.861" y2="49.759" width="0.6096" layer="1"/>
-<wire x1="30.861" y1="49.759" x2="30.861" y2="38.9382" width="0.6096" layer="1"/>
-<wire x1="35.052" y1="36.957" x2="32.8422" y2="36.957" width="0.6096" layer="1"/>
-<wire x1="32.8422" y1="36.957" x2="30.861" y2="38.9382" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="U$3" pad="A"/>
@@ -3078,6 +3057,31 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$29">
 <via x="64.0334" y="76.2" extent="1-16" drill="1" diameter="3" shape="square"/>
+</signal>
+<signal name="G25">
+<contactref element="U$1" pad="GPIO25"/>
+<contactref element="R8" pad="1"/>
+<wire x1="35.306" y1="54.077" x2="35.306" y2="50.292" width="0.8128" layer="1"/>
+<wire x1="37.9222" y1="47.6758" x2="37.9222" y2="27.686" width="0.8128" layer="1"/>
+<wire x1="37.9222" y1="27.686" x2="37.0332" y2="26.797" width="0.8128" layer="1"/>
+<wire x1="37.0332" y1="26.797" x2="35.052" y2="26.797" width="0.8128" layer="1"/>
+<wire x1="35.306" y1="50.292" x2="37.9222" y2="47.6758" width="0.8128" layer="1"/>
+</signal>
+<signal name="G26">
+<contactref element="U$1" pad="GPIO26"/>
+<contactref element="R7" pad="1"/>
+<wire x1="38.1" y1="54.077" x2="38.1" y2="52.578" width="0.8128" layer="1"/>
+<wire x1="38.1" y1="52.578" x2="39.243" y2="51.435" width="0.8128" layer="1"/>
+<wire x1="39.243" y1="51.435" x2="39.243" y2="25.781" width="0.8128" layer="1"/>
+<wire x1="37.719" y1="24.257" x2="35.052" y2="24.257" width="0.8128" layer="1"/>
+<wire x1="39.243" y1="25.781" x2="37.719" y2="24.257" width="0.8128" layer="1"/>
+</signal>
+<signal name="G27">
+<contactref element="U$1" pad="GPIO27"/>
+<contactref element="R6" pad="1"/>
+<wire x1="40.894" y1="54.077" x2="40.894" y2="24.003" width="0.8128" layer="1"/>
+<wire x1="40.894" y1="24.003" x2="38.608" y2="21.717" width="0.8128" layer="1"/>
+<wire x1="38.608" y1="21.717" x2="35.052" y2="21.717" width="0.8128" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
