@@ -10895,6 +10895,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="R14" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="1k"/>
 <part name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="5.6k"/>
 <part name="R16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="5.6k"/>
+<part name="X14" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
 </parts>
 <sheets>
 <sheet>
@@ -10951,8 +10952,8 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND1" gate="1" x="106.68" y="35.56" smashed="yes">
 <attribute name="VALUE" x="104.14" y="33.02" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="15.24" y="43.18" smashed="yes">
-<attribute name="VALUE" x="12.7" y="40.64" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="20.32" y="27.94" smashed="yes">
+<attribute name="VALUE" x="17.78" y="25.4" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="124.46" y="22.86" smashed="yes">
 <attribute name="VALUE" x="121.92" y="20.32" size="1.778" layer="96"/>
@@ -11210,6 +11211,18 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="NAME" x="90.17" y="118.3386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="90.17" y="113.538" size="1.778" layer="96"/>
 </instance>
+<instance part="X14" gate="-1" x="10.16" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.62" y="38.862" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X14" gate="-2" x="10.16" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.62" y="41.402" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X14" gate="-3" x="10.16" y="43.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.62" y="43.942" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X14" gate="-4" x="10.16" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="7.62" y="46.482" size="1.524" layer="95" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -11236,13 +11249,12 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-10.16" y1="55.88" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="48.26" x2="-10.16" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="-2.54" y1="35.56" x2="5.08" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="35.56" x2="2.54" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="35.56" x2="-2.54" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="35.56" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="35.56" x2="2.54" y2="40.64" width="0.1524" layer="91"/>
-<junction x="2.54" y="35.56"/>
-<label x="2.54" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="-2.54" y1="35.56" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-2.54" y="35.56"/>
+<label x="-2.54" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="X2" gate="-1" pin="S"/>
 <wire x1="-20.32" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-10.16" y="66.04"/>
@@ -11264,6 +11276,10 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-17.78" y1="48.26" x2="-10.16" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="45.72" x2="-17.78" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-17.78" y="48.26"/>
+<pinref part="X14" gate="-2" pin="S"/>
+<wire x1="12.7" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
+<junction x="15.24" y="35.56"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -11555,13 +11571,13 @@ Source: http://www.osram.convergy.de/</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="22.86" y1="38.1" x2="17.78" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="38.1" x2="17.78" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="38.1" x2="20.32" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="17.78" y1="45.72" x2="15.24" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND1"/>
 <wire x1="53.34" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <junction x="22.86" y="38.1"/>
+<pinref part="X14" gate="-1" pin="S"/>
+<wire x1="12.7" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -11905,6 +11921,24 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="73.66" x2="167.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="167.64" y="73.66" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$30" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO13"/>
+<wire x1="22.86" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X14" gate="-3" pin="S"/>
+<wire x1="17.78" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO12"/>
+<wire x1="22.86" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="43.18" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="X14" gate="-4" pin="S"/>
+<wire x1="20.32" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
