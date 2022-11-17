@@ -781,6 +781,104 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <wire x1="-5.1" y1="-2.3" x2="-5.1" y2="-1.8" width="0.254" layer="21"/>
 <wire x1="5.1" y1="-2.3" x2="5.1" y2="-1.8" width="0.254" layer="21"/>
 </package>
+<package name="JST-XH-06-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;6&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="8.7" y1="-2.3575" x2="8.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="8.7" y1="3.3925" x2="-8.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-8.7" y1="3.3925" x2="-8.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-8.7" y1="-2.3575" x2="8.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-9.255" y="-2.14" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-8.3025" y="3.8925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-7.9675" y="-1.5875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-6.3" y1="-2.3" x2="-6.3" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="6.4" y1="-2.3" x2="6.4" y2="-1.8" width="0.254" layer="21"/>
+<pad name="6" x="6.35" y="0" drill="1.016" shape="long" rot="R90"/>
+</package>
+<package name="JST-XH-06-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;6&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="8.7" y1="-2.3575" x2="8.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="8.7" y1="3.3925" x2="-8.7" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-8.7" y1="3.3925" x2="-8.7" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-8.7" y1="-2.3575" x2="8.7" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="-1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-6.35" y="0" drill="1.016" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.016" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1.016" rot="R90"/>
+<text x="-9.255" y="-2.14" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-8.3025" y="3.8925" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-7.9675" y="-1.5875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-6.3" y1="-2.3" x2="-6.3" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="6.4" y1="-2.3" x2="6.4" y2="-1.8" width="0.254" layer="21"/>
+<pad name="6" x="6.35" y="0" drill="1.016" rot="R90"/>
+</package>
+<package name="JST-XH-03-PACKAGE-LONG-PAD">
+<description>&lt;b&gt;JST XH Connector Long Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="4.95" y1="-2.3575" x2="4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="4.95" y1="3.3925" x2="-4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="3.3925" x2="-4.95" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="-2.3575" x2="4.95" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-5.555" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.6025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.1675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
+</package>
+<package name="JST-XH-03-PACKAGE-ROUND-PAD">
+<description>&lt;b&gt;JST XH Connector Round Pads (Package)&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="4.95" y1="-2.3575" x2="4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="4.95" y1="3.3925" x2="-4.95" y2="3.3925" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="3.3925" x2="-4.95" y2="-2.3575" width="0.254" layer="21"/>
+<wire x1="-4.95" y1="-2.3575" x2="4.95" y2="-2.3575" width="0.254" layer="21"/>
+<pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
+<pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
+<text x="-5.555" y="-2.04" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-4.6025" y="3.8925" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.1675" y="-1.4875" size="1.016" layer="51" ratio="10">1</text>
+<wire x1="-2.6" y1="-2.3" x2="-2.6" y2="-1.8" width="0.254" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="-1.8" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M">
@@ -909,6 +1007,91 @@ Number of pins: &lt;b&gt;5&lt;/b&gt;&lt;b&gt;&lt;P&gt;
 <connect gate="-3" pin="S" pad="3"/>
 <connect gate="-4" pin="S" pad="4"/>
 <connect gate="-5" pin="S" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-06-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;6&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="0" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="-2.54" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="-5.08" addlevel="always" swaplevel="1"/>
+<gate name="-4" symbol="M" x="2.54" y="-7.62" addlevel="always" swaplevel="1"/>
+<gate name="-5" symbol="M" x="2.54" y="-10.16" addlevel="always" swaplevel="1"/>
+<gate name="-6" symbol="M" x="2.54" y="-12.7" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-06-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-06-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JST-XH-03-PIN" prefix="X">
+<description>&lt;b&gt;JST XH Connector 2 Pin&lt;/b&gt;&lt;p&gt;
+
+Wire to board connector.
+
+Pitch: 2,54 mm, (0.100")&lt;p&gt;
+Number of pins: &lt;b&gt;3&lt;/b&gt;&lt;b&gt;&lt;P&gt;
+
+&lt;b&gt;Created by Rembrandt Electronics&lt;/b&gt;&lt;p&gt;
+&lt;b&gt;www.rembrandtelectronics.com&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="MV" x="2.54" y="7.62" addlevel="always" swaplevel="1"/>
+<gate name="-2" symbol="M" x="2.54" y="5.08" addlevel="always" swaplevel="1"/>
+<gate name="-3" symbol="M" x="2.54" y="2.54" addlevel="always" swaplevel="1"/>
+</gates>
+<devices>
+<device name="-LONG-PAD" package="JST-XH-03-PACKAGE-LONG-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-ROUND-PAD" package="JST-XH-03-PACKAGE-ROUND-PAD">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -10833,9 +11016,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="U$3" library="zort-library" deviceset="RS485-TTL-CONVERTER" device=""/>
 <part name="U$4" library="diy-modules" deviceset="DC-DC-STEP-DOWN-MP2307" device=""/>
 <part name="X1" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
-<part name="X2" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
-<part name="X3" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
-<part name="X4" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 <part name="X5" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 <part name="X6" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-02-PIN" device="-LONG-PAD"/>
 <part name="U1" library="AT24C128C-SSHM-T" deviceset="AT24C128C-SSHM-T" device=""/>
@@ -10896,10 +11076,19 @@ Source: http://www.osram.convergy.de/</description>
 <part name="R15" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="5.6k"/>
 <part name="R16" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1" value="5.6k"/>
 <part name="X14" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-04-PIN" device="-LONG-PAD"/>
+<part name="X15" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-06-PIN" device="-LONG-PAD"/>
+<part name="T5" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="T6" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="BC847" device="" package3d_urn="urn:adsk.eagle:package:28738/2"/>
+<part name="R17" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
+<part name="R18" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" deviceset="R" device="R1206" package3d_urn="urn:adsk.eagle:package:13301/1"/>
+<part name="X16" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
+<part name="X17" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
+<part name="X18" library="Rembrandt Electronics - JST XH Connectors v1-0" deviceset="JST-XH-03-PIN" device="-LONG-PAD"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<text x="45.72" y="86.36" size="1.778" layer="97">RX</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="22.86" y="33.02" smashed="yes"/>
@@ -10914,24 +11103,6 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="X1" gate="-1" x="-22.86" y="106.68" smashed="yes" rot="R180">
 <attribute name="NAME" x="-25.4" y="107.442" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-2" x="-22.86" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="-25.4" y="69.342" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X2" gate="-1" x="-22.86" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="-25.4" y="66.802" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-2" x="-22.86" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="-25.4" y="59.182" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X3" gate="-1" x="-22.86" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="-25.4" y="56.642" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X4" gate="-2" x="-22.86" y="50.8" smashed="yes" rot="R180">
-<attribute name="NAME" x="-25.4" y="51.562" size="1.524" layer="95" rot="R180"/>
-</instance>
-<instance part="X4" gate="-1" x="-22.86" y="48.26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-25.4" y="49.022" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="X5" gate="-2" x="-22.86" y="96.52" smashed="yes" rot="R180">
 <attribute name="NAME" x="-25.4" y="97.282" size="1.524" layer="95" rot="R180"/>
@@ -10949,8 +11120,8 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="NAME" x="141.81815" y="61.7853" size="2.08866875" layer="95" ratio="10" rot="SR0"/>
 <attribute name="VALUE" x="142.939159375" y="27.9859" size="2.088540625" layer="96" ratio="10" rot="SR0"/>
 </instance>
-<instance part="GND1" gate="1" x="106.68" y="35.56" smashed="yes">
-<attribute name="VALUE" x="104.14" y="33.02" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="106.68" y="22.86" smashed="yes">
+<attribute name="VALUE" x="104.14" y="20.32" size="1.778" layer="96"/>
 </instance>
 <instance part="GND2" gate="1" x="20.32" y="27.94" smashed="yes">
 <attribute name="VALUE" x="17.78" y="25.4" size="1.778" layer="96"/>
@@ -11174,13 +11345,13 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND10" gate="1" x="73.66" y="132.08" smashed="yes">
 <attribute name="VALUE" x="71.12" y="129.54" size="1.778" layer="96"/>
 </instance>
-<instance part="T4" gate="G$1" x="99.06" y="48.26" smashed="yes">
-<attribute name="NAME" x="91.44" y="45.72" size="1.778" layer="95"/>
-<attribute name="VALUE" x="91.44" y="43.18" size="1.778" layer="96"/>
+<instance part="T4" gate="G$1" x="99.06" y="33.02" smashed="yes">
+<attribute name="NAME" x="91.44" y="30.48" size="1.778" layer="95"/>
+<attribute name="VALUE" x="91.44" y="27.94" size="1.778" layer="96"/>
 </instance>
-<instance part="R12" gate="G$1" x="83.82" y="48.26" smashed="yes">
-<attribute name="NAME" x="80.01" y="49.7586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="44.958" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="91.44" y="48.26" smashed="yes">
+<attribute name="NAME" x="87.63" y="49.7586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="87.63" y="44.958" size="1.778" layer="96"/>
 </instance>
 <instance part="U$7" gate="G$1" x="152.4" y="129.54" smashed="yes"/>
 <instance part="U$8" gate="G$1" x="81.28" y="152.4" smashed="yes">
@@ -11207,9 +11378,9 @@ Source: http://www.osram.convergy.de/</description>
 <attribute name="NAME" x="97.79" y="123.4186" size="1.778" layer="95"/>
 <attribute name="VALUE" x="97.79" y="118.618" size="1.778" layer="96"/>
 </instance>
-<instance part="R16" gate="G$1" x="93.98" y="116.84" smashed="yes">
-<attribute name="NAME" x="90.17" y="118.3386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.17" y="113.538" size="1.778" layer="96"/>
+<instance part="R16" gate="G$1" x="88.9" y="116.84" smashed="yes">
+<attribute name="NAME" x="85.09" y="118.3386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="85.09" y="113.538" size="1.778" layer="96"/>
 </instance>
 <instance part="X14" gate="-1" x="10.16" y="38.1" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.62" y="38.862" size="1.524" layer="95" rot="R180"/>
@@ -11222,6 +11393,68 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="X14" gate="-4" x="10.16" y="45.72" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.62" y="46.482" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X15" gate="-1" x="30.48" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.242" y="88.9" size="1.524" layer="95" rot="R90"/>
+<attribute name="VALUE" x="29.083" y="85.598" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X15" gate="-2" x="33.02" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="33.782" y="88.9" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="X15" gate="-3" x="35.56" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.322" y="88.9" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="X15" gate="-4" x="38.1" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="38.862" y="88.9" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="X15" gate="-5" x="40.64" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.402" y="88.9" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="X15" gate="-6" x="43.18" y="86.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.942" y="88.9" size="1.524" layer="95" rot="R90"/>
+</instance>
+<instance part="T5" gate="G$1" x="10.16" y="76.2" smashed="yes">
+<attribute name="NAME" x="0" y="83.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="0" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="T6" gate="G$1" x="17.78" y="76.2" smashed="yes">
+<attribute name="NAME" x="7.62" y="83.82" size="1.778" layer="95"/>
+<attribute name="VALUE" x="7.62" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="R17" gate="G$1" x="7.62" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.1214" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="10.922" y="77.47" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R18" gate="G$1" x="15.24" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.7414" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="18.542" y="80.01" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="X16" gate="-1" x="-33.02" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="49.022" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X16" gate="-2" x="-33.02" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="51.562" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X16" gate="-3" x="-33.02" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="54.102" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X17" gate="-1" x="-33.02" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="56.642" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X17" gate="-2" x="-33.02" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="59.182" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X17" gate="-3" x="-33.02" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="61.722" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X18" gate="-1" x="-33.02" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="66.802" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X18" gate="-2" x="-33.02" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="69.342" size="1.524" layer="95" rot="R180"/>
+</instance>
+<instance part="X18" gate="-3" x="-33.02" y="71.12" smashed="yes" rot="R180">
+<attribute name="NAME" x="-35.56" y="71.882" size="1.524" layer="95" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -11255,14 +11488,8 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="-2.54" y1="35.56" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
 <junction x="-2.54" y="35.56"/>
 <label x="-2.54" y="40.64" size="1.778" layer="95" rot="R90" xref="yes"/>
-<pinref part="X2" gate="-1" pin="S"/>
-<wire x1="-20.32" y1="66.04" x2="-10.16" y2="66.04" width="0.1524" layer="91"/>
 <junction x="-10.16" y="66.04"/>
-<pinref part="X3" gate="-1" pin="S"/>
-<wire x1="-20.32" y1="55.88" x2="-10.16" y2="55.88" width="0.1524" layer="91"/>
 <junction x="-10.16" y="55.88"/>
-<pinref part="X4" gate="-1" pin="S"/>
-<wire x1="-20.32" y1="48.26" x2="-17.78" y2="48.26" width="0.1524" layer="91"/>
 <junction x="-10.16" y="48.26"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <junction x="-10.16" y="35.56"/>
@@ -11280,13 +11507,19 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="12.7" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="40.64" x2="15.24" y2="35.56" width="0.1524" layer="91"/>
 <junction x="15.24" y="35.56"/>
+<pinref part="X16" gate="-1" pin="S"/>
+<wire x1="-17.78" y1="48.26" x2="-30.48" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="X17" gate="-1" pin="S"/>
+<wire x1="-10.16" y1="55.88" x2="-30.48" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="X18" gate="-1" pin="S"/>
+<wire x1="-10.16" y1="66.04" x2="-30.48" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GPIO16"/>
-<wire x1="53.34" y1="48.26" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="53.34" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="48.26" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="43.18" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="TXD"/>
 <wire x1="96.52" y1="78.74" x2="96.52" y2="76.2" width="0.1524" layer="91"/>
@@ -11301,17 +11534,16 @@ Source: http://www.osram.convergy.de/</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="RXD"/>
-<wire x1="96.52" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="53.34" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GPIO17"/>
-<wire x1="88.9" y1="55.88" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="55.88" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
-<junction x="88.9" y="55.88"/>
+<wire x1="83.82" y1="53.34" x2="53.34" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="53.34" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<junction x="83.82" y="53.34"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="116.84" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
-<junction x="88.9" y="116.84"/>
+<wire x1="83.82" y1="116.84" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<junction x="83.82" y="116.84"/>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="88.9" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11376,8 +11608,8 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="106.68" y1="53.34" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="106.68" y1="45.72" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="43.18" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="45.72" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="27.94" x2="106.68" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="93.98" x2="116.84" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="83.82" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="45.72" x2="106.68" y2="45.72" width="0.1524" layer="91"/>
@@ -11388,8 +11620,8 @@ Source: http://www.osram.convergy.de/</description>
 <junction x="116.84" y="83.82"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="T4" gate="G$1" pin="E"/>
-<wire x1="101.6" y1="43.18" x2="106.68" y2="43.18" width="0.1524" layer="91"/>
-<junction x="106.68" y="43.18"/>
+<wire x1="101.6" y1="27.94" x2="106.68" y2="27.94" width="0.1524" layer="91"/>
+<junction x="106.68" y="27.94"/>
 <pinref part="U$7" gate="G$1" pin="GND"/>
 <wire x1="114.3" y1="127" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="121.92" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
@@ -11400,7 +11632,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="106.68" y1="121.92" x2="114.3" y2="121.92" width="0.1524" layer="91"/>
 <junction x="114.3" y="121.92"/>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="116.84" x2="114.3" y2="116.84" width="0.1524" layer="91"/>
 <junction x="114.3" y="116.84"/>
 </segment>
 <segment>
@@ -11421,9 +11653,10 @@ Source: http://www.osram.convergy.de/</description>
 </segment>
 <segment>
 <pinref part="U$4" gate="G$1" pin="OUT-"/>
-<wire x1="0" y1="73.66" x2="0" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="0" y1="73.66" x2="0" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="X6" gate="-2" pin="S"/>
+<wire x1="0" y1="71.12" x2="0" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="0" y1="68.58" x2="0" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="83.82" x2="-17.78" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="83.82" x2="-17.78" y2="96.52" width="0.1524" layer="91"/>
@@ -11443,15 +11676,12 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="5.08" y1="99.06" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="73.66" x2="0" y2="73.66" width="0.1524" layer="91"/>
 <junction x="0" y="73.66"/>
-<pinref part="X2" gate="-2" pin="S"/>
 <wire x1="-20.32" y1="68.58" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="0" y="68.58"/>
-<pinref part="X3" gate="-2" pin="S"/>
 <wire x1="-17.78" y1="68.58" x2="0" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-20.32" y1="58.42" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="58.42" x2="-17.78" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-17.78" y="68.58"/>
-<pinref part="X4" gate="-2" pin="S"/>
 <wire x1="-20.32" y1="50.8" x2="-17.78" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="50.8" x2="-17.78" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-17.78" y="58.42"/>
@@ -11477,6 +11707,26 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
 <junction x="40.64" y="99.06"/>
+<pinref part="T6" gate="G$1" pin="E"/>
+<pinref part="T5" gate="G$1" pin="E"/>
+<wire x1="20.32" y1="71.12" x2="12.7" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="71.12" x2="0" y2="71.12" width="0.1524" layer="91"/>
+<junction x="12.7" y="71.12"/>
+<junction x="0" y="71.12"/>
+<pinref part="X15" gate="-2" pin="S"/>
+<wire x1="33.02" y1="83.82" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="76.2" x2="20.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="76.2" x2="20.32" y2="71.12" width="0.1524" layer="91"/>
+<junction x="20.32" y="71.12"/>
+<pinref part="X16" gate="-3" pin="S"/>
+<wire x1="-20.32" y1="50.8" x2="-20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="53.34" x2="-30.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="X17" gate="-3" pin="S"/>
+<wire x1="-20.32" y1="58.42" x2="-20.32" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="60.96" x2="-30.48" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="X18" gate="-3" pin="S"/>
+<wire x1="-20.32" y1="68.58" x2="-20.32" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="71.12" x2="-30.48" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -11799,6 +12049,14 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="66.04" y1="124.46" x2="55.88" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="147.32" x2="66.04" y2="124.46" width="0.1524" layer="91"/>
 <junction x="66.04" y="124.46"/>
+<pinref part="X15" gate="-1" pin="S"/>
+<wire x1="30.48" y1="83.82" x2="27.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="83.82" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="96.52" x2="63.5" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="111.76" x2="73.66" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="111.76" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
+<junction x="73.66" y="124.46"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -11830,15 +12088,17 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="U$2" gate="G$1" pin="RST"/>
 <pinref part="T4" gate="G$1" pin="C"/>
-<wire x1="101.6" y1="53.34" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
-<junction x="101.6" y="53.34"/>
-<wire x1="104.14" y1="53.34" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
+<junction x="101.6" y="38.1"/>
+<wire x1="101.6" y1="48.26" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="48.26" x2="111.76" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="124.46" x2="109.22" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="124.46" x2="109.22" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="RESET"/>
 <wire x1="109.22" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="38.1" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
+<junction x="101.6" y="48.26"/>
+<wire x1="101.6" y1="48.26" x2="101.6" y2="53.34" width="0.1524" layer="91"/>
+<junction x="101.6" y="53.34"/>
 </segment>
 </net>
 <net name="N$24" class="0">
@@ -11847,14 +12107,14 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$1" gate="G$1" pin="GPIO5"/>
 <wire x1="58.42" y1="53.34" x2="53.34" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="T4" gate="G$1" pin="B"/>
-<wire x1="88.9" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="48.26" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
@@ -11930,20 +12190,118 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="17.78" y1="40.64" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="X14" gate="-3" pin="S"/>
 <wire x1="17.78" y1="43.18" x2="12.7" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="X15" gate="-6" pin="S"/>
+<wire x1="22.86" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="40.64" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<junction x="22.86" y="40.64"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO12"/>
-<wire x1="22.86" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="20.32" y1="43.18" x2="20.32" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="X14" gate="-4" pin="S"/>
-<wire x1="20.32" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="45.72" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO14"/>
+<pinref part="X15" gate="-5" pin="S"/>
+<wire x1="22.86" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="45.72" x2="40.64" y2="83.82" width="0.1524" layer="91"/>
+<junction x="22.86" y="45.72"/>
+</segment>
+</net>
+<net name="N$32" class="0">
+<segment>
+<pinref part="T5" gate="G$1" pin="B"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$33" class="0">
+<segment>
+<pinref part="T6" gate="G$1" pin="B"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="78.74" x2="15.24" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$35" class="0">
+<segment>
+<pinref part="T6" gate="G$1" pin="C"/>
+<wire x1="20.32" y1="81.28" x2="38.1" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="X15" gate="-4" pin="S"/>
+<wire x1="38.1" y1="81.28" x2="38.1" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$36" class="0">
+<segment>
+<pinref part="T5" gate="G$1" pin="C"/>
+<wire x1="12.7" y1="81.28" x2="12.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="83.82" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="83.82" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="78.74" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="X15" gate="-3" pin="S"/>
+<wire x1="35.56" y1="78.74" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$34" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="88.9" x2="22.86" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="88.9" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="73.66" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GPIO32"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$37" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GPIO33"/>
+<wire x1="22.86" y1="55.88" x2="2.54" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="55.88" x2="2.54" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,-30.48,50.8,X16-2,S,,,,"/>
+<approved hash="101,1,-30.48,58.42,X17-2,S,,,,"/>
+<approved hash="101,1,-30.48,68.58,X18-2,S,,,,"/>
+<approved hash="104,1,162.56,91.44,U$3,GND2,GND,,,"/>
+<approved hash="104,1,129.54,55.88,U1,VCC,V33,,,"/>
+<approved hash="106,1,22.86,63.5,G34,,,,,"/>
+<approved hash="106,1,22.86,68.58,G36,,,,,"/>
+<approved hash="106,1,22.86,66.04,G39,,,,,"/>
+<approved hash="113,1,132.08,67.1297,R1,,,,,"/>
+<approved hash="113,1,77.6503,35.56,R2,,,,,"/>
+<approved hash="113,1,210.82,79.8297,R3,,,,,"/>
+<approved hash="113,1,210.82,59.5097,R4,,,,,"/>
+<approved hash="113,1,210.82,36.6497,R5,,,,,"/>
+<approved hash="113,1,175.26,74.7497,R6,,,,,"/>
+<approved hash="113,1,175.26,54.4297,R7,,,,,"/>
+<approved hash="113,1,175.26,31.5697,R8,,,,,"/>
+<approved hash="113,1,-8.48869,31.75,C1,,,,,"/>
+<approved hash="113,1,-0.868694,31.75,C2,,,,,"/>
+<approved hash="113,1,14.3713,102.87,C3,,,,,"/>
+<approved hash="113,1,21.9913,102.87,C4,,,,,"/>
+<approved hash="113,1,31.5798,102.87,C5,,,,,"/>
+<approved hash="113,1,41.7398,102.87,C6,,,,,"/>
+<approved hash="113,1,6.1798,31.75,C7,,,,,"/>
+<approved hash="113,1,16.3398,31.75,C8,,,,,"/>
+<approved hash="113,1,31.9202,128.27,C9,,,,,"/>
+<approved hash="113,1,38.8306,128.27,C10,,,,,"/>
+<approved hash="113,1,43.4328,128.27,C11,,,,,"/>
+<approved hash="113,1,58.7417,102.87,LED1,,,,,"/>
+<approved hash="113,1,83.4983,128.27,LED2,,,,,"/>
+<approved hash="113,1,-17.4583,31.75,LED3,,,,,"/>
+<approved hash="113,1,-16.6903,40.64,R9,,,,,"/>
+<approved hash="113,1,78.74,123.37,R10,,,,,"/>
+<approved hash="113,1,53.34,105.59,R11,,,,,"/>
+<approved hash="113,1,91.44,49.3497,R12,,,,,"/>
+<approved hash="113,1,94.7106,153.67,C12,,,,,"/>
+<approved hash="113,1,99.7906,153.67,C13,,,,,"/>
+<approved hash="113,1,6.53034,81.28,R17,,,,,"/>
+<approved hash="113,1,14.1503,83.82,R18,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
