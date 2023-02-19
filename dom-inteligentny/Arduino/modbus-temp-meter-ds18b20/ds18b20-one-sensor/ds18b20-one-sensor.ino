@@ -4,7 +4,7 @@
 
 #define ID   101
 // Numer pinu cyfrowego do którego podłaczyłęś czujniki
-const byte ONEWIRE_PIN = 5;
+const byte ONEWIRE_PIN = 8;
 
 OneWire onewire(ONEWIRE_PIN);
 DS18B20 sensor(&onewire);
@@ -23,7 +23,7 @@ void setup()
   sensor.request();
 }
 
-uint16_t au16data[3];
+uint16_t au16data[2];
 
 void discover()
 {
@@ -73,6 +73,7 @@ void loop()
     au16data[0] = round(temperature1*100);
     au16data[1] = slave.getInCnt();
 
-    state = slave.poll( au16data, 2 );
   }
+  state = slave.poll( au16data, 2 );
+ 
 }
